@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+/*---------- CONTENT AREA ----------*/
+
+body {
+  background: blue;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+  body{
+    background: red;
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  body {
+    background: yellow;
+  }
+}
